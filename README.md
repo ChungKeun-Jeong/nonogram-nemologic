@@ -11,4 +11,6 @@ Flutter 앱 개발 - 노노그램(네모로직)
     - pubspec.yaml 파일에서 버전을 확인할 수 있습니다.
 <br><br>
 
-## DataBase
+## Database (HIVE)
+앱을 종료해도 게임에 대한 데이터를 유지하기 위해서 로컬 Database가 필요하다.
+그래서 NoSQL 기반의 Database인 HIVE를 사용했다.
