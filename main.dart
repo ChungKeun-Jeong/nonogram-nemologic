@@ -37,7 +37,7 @@ class MyAppHome extends StatelessWidget {
         // 배경 화면 추가
         decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("images/AI_background.png"), fit: BoxFit.fill),
+              image: AssetImage("images/background.png"), fit: BoxFit.fill),
         ),
         child: Column(
           children: <Widget>[
@@ -54,7 +54,7 @@ class MyAppHome extends StatelessWidget {
                   child: Ink(
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: ExactAssetImage("images/AI_function_button.png"),
+                        image: ExactAssetImage("images/button.png"),
                         fit: BoxFit.fill,
                       ),
                     ),
